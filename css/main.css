@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --primaria: #cd9cfa;
+    --segundaria: #FCC419;
+    --texto: #2f2f2f;
+}
+body{
+      font-family:'Montserrat', sans-serif;
+      
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.barratopo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 85px;
+
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+#menu ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 23px;
+    padding-top: 2px;
+}
+#menu ul li:hover{
+    background-image: url("../img/osso.png");
+    background-repeat: no-repeat;background-position: bottom;
+    
+
+}
+#menu ul li a{
+    color: var(--texto);
+    font-weight: 550;
+}
+.imagemBanner{
+    background: url(../img/bannercabecalho.png);
+    background-repeat: no-repeat;background-position: right;height: 612px;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    height: calc(100% - 350px);
+}
+.mensagem-banner h1{
+    color:var(--primaria);
+    padding-bottom: 20px;
+}
+.mensagem-banner p{
+    color: var(--texto);
+    padding-top: 20px;
+    width: 500px;
+}
