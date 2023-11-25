@@ -55,7 +55,7 @@ body {
 
 #menu ul li a {
     color: var(--texto);
-    font-weight: 550;
+    
 }
 
 .imagemBanner {
@@ -92,10 +92,12 @@ body {
 }
 
 .caixa-text {
-    border-radius: 5px;
-    border: solid 3px var(--primaria);
-    height: 50px;
-    width: 100%;
+    border-radius: 15px;
+    background-color: #9e9a9a60;
+    border: solid 2px #9e9a9a60;
+    height: 20px;
+    width: 100%; 
+    /* position: absolute; */
 
 }
 
@@ -104,40 +106,22 @@ body {
     color: #ffff;
 }
 
-#lightBox-pesquisa {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(47, 47, 47, .6);
-    left: 0;
-    top: 0;
-    z-index: 99999;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.Fechar{
-    background: none;
-    color: #ffff;
-    font-size: 30px;
-    
-}
-
 .lupa {
     background: none;
     border: none;
     color: #ffff;
     font-size: 20px;
-    align-items: center;
+     
+    
+     
 }
-
-#caixaPesquisa form{
+#FormPesquisa{
+  margin-left: auto;
+}
+#FormPesquisa form{
     display: flex;
-}
-
-#caixaPesquisa img {
-margin-top: -250px;
+  
+  
+  
+    
 }
