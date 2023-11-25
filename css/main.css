@@ -116,7 +116,7 @@ body {
      
 }
 #FormPesquisa{
-  margin-left: auto;
+  margin-left: auto; 
 }
 #FormPesquisa form{
     display: flex;
