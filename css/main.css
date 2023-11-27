@@ -60,10 +60,10 @@ body {
 }
 
 .imagemBanner {
-    background: url(../img/Formato/cabeçalho.png);
+    background: url(../img/cabecalho.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 612px;
+    height: 650px;
 }
 
 #banner {
