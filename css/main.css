@@ -37,7 +37,7 @@ body {
     display: flex;
     list-style: none;
     margin-top: 10px;
-    padding-left:100px;
+    padding-left: 100px;
 }
 
 #menu ul li {
@@ -57,11 +57,11 @@ body {
 
 #menu ul li a {
     color: var(--texto);
-    font-family: "Quicksand"; 
+    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-weight: 500;
-   
-    
+
+
 }
 
 .imagemBanner {
@@ -81,7 +81,7 @@ body {
     color: var(--primaria);
     padding-bottom: 20px;
     font-size: 30px;
-    
+
 }
 
 .mensagem-banner p {
@@ -106,8 +106,8 @@ body {
     background-color: #d9d9d9;
     opacity: 60%;
     height: 20px;
-    width: 100%; 
-   border: solid 2px #d9d9d9;
+    width: 100%;
+    border: solid 2px #d9d9d9;
 
 }
 
@@ -122,17 +122,33 @@ body {
     color: #ffff;
     font-size: 20px;
     padding-left: 10px;
-     
-    
-     
 }
-#FormPesquisa{
-  margin-left: auto; 
+
+#FormPesquisa {
+    margin-left: auto;
 }
-#FormPesquisa form{
+
+#FormPesquisa form {
     display: flex;
-  
-  
-  
-    
+}
+
+.estastistica {
+    display: flex;
+    background-color: #A15BE2;
+    width: 650px;
+    height: 141px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-image: url('../img/pata\ 1.png'); background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.numero {
+    padding: 55px;
+    color: #ffff;
+    font-size: 16px;
+    align-items: center;
+}
+.valor{
+
 }
