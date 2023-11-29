@@ -146,9 +146,6 @@ body {
     margin-top: -5%;
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
-    background-image: url('../img/pata\ 1.png');
-    background-repeat: no-repeat;
-    background-size: 30px;
 }
 
 .numero {
@@ -161,6 +158,7 @@ body {
 
 .valor {
     padding-bottom: 20px; 
+}
+.icone-pata{
     
-
 }
