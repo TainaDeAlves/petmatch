@@ -143,22 +143,71 @@ body {
     background-color: #A15BE2;
     width: 650px;
     height: 141px;
-    margin-top: -5%;
+    margin-top: -20px;
+    padding-left: 55px;
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
+    background-image: url("../img/Patinhas.png");
+    background-repeat: no-repeat;
+    background-position: 35px 15px;
+
 }
 
 .numero {
-    
-    padding: 55px; 
+    padding: 55px;
     color: #ffff;
     font-size: 16px;
-    
+    text-align: center;
+
 }
 
 .valor {
-    padding-bottom: 20px; 
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 5px;
 }
-.icone-pata{
-    
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+    padding-bottom: 105px;
+
+}
+
+.container span {
+    color: var(--primaria);
+    padding-left: 8px;
+}
+
+.passosadote {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    background-image: url("../img/traco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.blocochamada {
+    border: solid 1px #cc9cfa24;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 3px 5px #cd9cfa;
+    background-color: #fff;
+}
+
+.container h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    font-size: 25px;
+}
+
+#selecaoDeCachorros {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    font-size: 16px;
 }
