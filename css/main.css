@@ -64,6 +64,14 @@ body {
 
 }
 
+.paginainterna .lupa{
+ color: #2f2f2f !important;
+}
+
+.paginainterna #botao a{
+    color: #2f2f2f !important;
+   }
+
 .imagemBanner {
     background: url(../img/cabecalho.png);
     background-repeat: no-repeat;
