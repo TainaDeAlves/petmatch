@@ -270,3 +270,36 @@ body {
     color: #2f2f2f;
     font-size: 16px;
 }
+/* css do pagina-contribuir */
+.bannerprincipal{
+    display: flex;
+}
+.mensagem{
+text-align: center;
+padding: 55px;
+font-size: 25px;
+
+margin-top: 75px;
+
+}
+.textoamarelo{
+    color: var(--segundaria)!important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 150px;
+   
+}
+.botao3 {
+    background-color: var(--segundaria);
+    padding: 12px; 
+    display: flex;
+    border-radius: 18px;
+    margin-top: 25px; 
+    /* margin-right: 105px; */
+    color: #ffff;
+    font-size: 16px;
+}
