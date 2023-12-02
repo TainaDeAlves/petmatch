@@ -73,24 +73,25 @@ body {
 
 
 
+
+
 .bloco-texto5 {
+    color: #FCC419;
+    font-size: 30px;
+    margin: 100px;
+    margin-top: -50px;
+}
+
+
+
+
+.bloco-texto6 {
     display: flex;
     color: #FCC419;
     font-size: 30px;
     margin: 100px;
     margin-top: -50px;
-
 }
-
-
-.bloco-texto6 {
-    color: #FCC419;
-    font-size: 30px;
-    margin: 100px;
-    margin-top: -50px;
-}
-
-
 
 
 .bloco-texto7 {
@@ -102,15 +103,15 @@ body {
 }
 
 
+
 .bloco-texto8 {
     display: flex;
     color: #FCC419;
     font-size: 30px;
     margin: 100px;
     margin-top: -50px;
+
 }
-
-
 
 .bloco-texto9 {
     display: flex;
@@ -118,18 +119,9 @@ body {
     font-size: 30px;
     margin: 100px;
     margin-top: -50px;
-
 }
 
 .bloco-texto10 {
-    display: flex;
-    color: #FCC419;
-    font-size: 30px;
-    margin: 100px;
-    margin-top: -50px;
-}
-
-.bloco-texto11 {
     display: flex;
     color: #CD9CFA;
     font-size: 30px;
