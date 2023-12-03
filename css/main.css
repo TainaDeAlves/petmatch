@@ -64,13 +64,13 @@ body {
 
 }
 
-.paginainterna .lupa{
- color: #2f2f2f !important;
+.paginainterna .lupa {
+    color: #2f2f2f !important;
 }
 
-.paginainterna #botao a{
+.paginainterna #botao a {
     color: #2f2f2f !important;
-   }
+}
 
 .imagemBanner {
     background: url(../img/cabecalho.png);
@@ -211,7 +211,7 @@ body {
     font-size: 14px;
     width: 235px;
     height: 210px;
-    
+
 }
 
 .container h3 {
@@ -219,7 +219,7 @@ body {
     justify-content: center;
     padding-top: 65px;
     font-size: 25px;
-    
+
 }
 
 #selecaoDeCachorros {
@@ -230,76 +230,331 @@ body {
 }
 
 
-.bloco-meio{
+.bloco-meio {
     margin-top: 160px;
     padding: 10px;
 }
 
 
-.espaçamento1{
+.espaçamento1 {
     margin-top: 30px;
     font-size: 14px;
 }
 
 
-.espaçamento2{
+.espaçamento2 {
     margin-top: 30px;
     font-size: 14px;
 
 }
 
 
-.espaçamento3{
+.espaçamento3 {
     margin-top: 30px;
     font-size: 14px;
 }
 
 
-.cor{
+.cor {
     color: #2f2f2f;
     font-size: 16px;
 }
 
-.cor2{
+.cor2 {
     color: #2f2f2f;
     font-size: 16px
 }
 
 
-.cor3{
+.cor3 {
     color: #2f2f2f;
     font-size: 16px;
 }
+
 /* css do pagina-contribuir */
-.bannerprincipal{
+.bannerprincipal {
     display: flex;
 }
-.mensagem{
-text-align: center;
-padding: 55px;
-font-size: 25px;
 
-margin-top: 75px;
+.mensagem {
+    text-align: center;
+    padding: 55px;
+    font-size: 25px;
+
+    margin-top: 75px;
 
 }
-.textoamarelo{
-    color: var(--segundaria)!important;
+
+.textoamarelo {
+    color: var(--segundaria) !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
 }
-.botoes{
+
+.botoes {
     display: flex;
     justify-content: space-around;
     padding: 35px 150px;
-   
+
 }
+
 .botao3 {
     background-color: var(--segundaria);
-    padding: 12px; 
+    padding: 12px;
     display: flex;
     border-radius: 18px;
-    margin-top: 25px; 
+    margin-top: 25px;
     /* margin-right: 105px; */
     color: #ffff;
     font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*continuação do index html*/
+
+.container3 {
+    display: flex;
+    margin: 150px;
+    padding: 150px;
+    padding-left: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-cachorros {
+
+    padding: 100px;
+    padding-top: 5px;
+}
+
+.gatos {
+
+    padding-top: 50px;
+    margin-top: -40px;
+}
+
+
+
+.pets {
+
+    margin-top: -481px;
+    padding: 150px;
+    margin-left: 250px;
+    padding-top: -100x;
+}
+
+
+.caramelo {
+
+    padding-left: 15px;
+    padding: 20px;
+}
+
+.siames {
+
+    margin-top: 20px;
+    padding-left: 70px;
+
+
+}
+
+.muitos {
+
+    padding-left: 60px;
+
+}
+
+.container4 {
+    display: flex;
+    margin-left: 200px;
+    background-color: #cd9cfa73;
+    padding-left: 135px;
+    padding-top: 150px;
+    width: 80%;
+    margin-top: -10px;
+    box-shadow: #cd9cfa73;
+
+}
+
+.bloco-depoimentos {
+    justify-content: center;
+    padding: 150px;
+
+}
+
+.depoimento {
+    padding-left: 300px;
+    padding-top: -900%;
+    margin-top: -150px;
+
+}
+
+
+
+.depoimento1 {
+    padding-top: 160px;
+    padding: 30px;
+    padding-left: 90px;
+
+}
+
+.testimony1 {
+    padding: 100px;
+    margin-left: -15px;
+    margin-top: 5px;
+    width: 400px;
+    height: 550px;
+
+}
+
+.testimony2 {
+    padding: 100px;
+    margin-left: -118px;
+    height: 700;
+    width: 400px;
+    margin-top: 5px;
+}
+
+.testimony3 {
+    display: flex;
+    padding-top: 900px;
+    margin-top: -559px;
+    padding: 100px;
+    margin-left: 560px;
+    padding-top: -70px;
+    width: 400px;
+    height: 550px;
+}
+
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.se-inscreva {
+    display: flex;
+
+
+}
+
+
+
+.imagem {
+    margin-left: 100px;
+    margin-top: 170px;
+
+}
+
+
+.boletin {
+    margin-left: 650px;
+    margin-top: -400px;
+    font-size: 30px;
+    align-items: center;
+
+}
+
+.roxo {
+    color: #cd9cfa;
+}
+
+
+.ultimas {
+    margin-left: 650px;
+    font-size: 16px;
+}
+
+
+
+
+
+.pesquisa {
+
+    margin-top: 460px;
+    width: 499px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid #cd9cfa;
+    background: #fff;
+    margin-left: -477.4px;
+
+}
+
+
+
+
+.botao {
+    display: flex;
+    grid-column: 10px;
+    margin-left: 55.4%;
+    align-items: center;
+    padding-left: 1px;
+    margin-top: 203.3%;
+    background-color: #cd9cfa;
+    width: 146px;
+    height: 43px;
+    border: 0px 10px 10px 0px;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+
+.botao {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.botao {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botao {
+    display: grid;
+}
+
+
+.botao {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+
+
+.caixa-mensagem {
+    display: flex;
+    width: 499px;
+    height: 45px;
+    margin-left: -480px;
+    padding-left: 580px;
+    padding: 300px;
+    
 }
