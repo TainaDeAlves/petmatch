@@ -551,25 +551,17 @@ font-weight: 500;
 .doar{
     display: flex;
    text-align:center;
-
 }
 .imgnumero{
-
+    font-size: 20px;
 }
 .formascontribuir{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     padding-top: 55px;
+    
     
 }
     .formascontribuir p{
-        margin: 0 auto;
+        margin-left: 2px;
     }
-
-
-
-
-
-
-
-
