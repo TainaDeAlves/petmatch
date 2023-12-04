@@ -32,12 +32,15 @@ body {
     height: 85px;
 
 }
+#logo{
+    margin-top: -13px;
+}
 
 #menu ul {
     display: flex;
     list-style: none;
     margin-top: 10px;
-    padding-left: 100px;
+    padding-left: 70px;
 }
 
 #menu ul li {
@@ -313,43 +316,28 @@ body {
     padding: 20px;
 }
 
-.siames {
-
-    margin-top: 20px;
-    padding-left: 70px;
-
-
-}
-
-.muitos {
-
-    padding-left: 60px;
-
-}
-
 .container4 {
     display: flex;
-    margin-left: 200px;
-    background-color: #cd9cfa73;
+    margin-left: 200px; 
+    /* background-color: #cd9cfa73; */
     padding-left: 135px;
     padding-top: 150px;
     width: 80%;
-    margin-top: -10px;
+    margin-top: 10px; 
     box-shadow: #cd9cfa73;
 
 }
 
 .bloco-depoimentos {
-    justify-content: center;
-    padding: 150px;
+    justify-content: center; 
+    padding: 60px;
 
 }
 
 .depoimento {
     padding-left: 300px;
-    padding-top: -900%;
+    padding-top: -900px;
     margin-top: -150px;
-
 }
 
 
@@ -511,16 +499,14 @@ body {
     justify-content: center;
     margin-left: 0px;
     align-items: center;
-    background-color: #cd9cfa;
+    background-color:#A15BE2;
     color: #fff;
     width: 100%;
     height: 350px;
     
 }
 
- .logo{
-    margin-top: 150px;
-}
+ 
 
 .logo a {
     display: block;
@@ -534,7 +520,7 @@ body {
 }
 
 .categorias{
-    margin-top: 130px;
+   
     margin-left: 25px;
     display: block;
 }
@@ -549,7 +535,7 @@ body {
 
 .pet-match{
      margin-left: 50px;
-     margin-top: 140px;    
+     
     
 }
 
@@ -566,7 +552,7 @@ body {
 
 .Contatos{
       margin-left: 30px;
-      margin-top: 120px;
+     
 }
 
 .Contatos a {
@@ -582,7 +568,7 @@ body {
 .baixe-apps {
     display: block;
     margin-bottom: 1px;
-    margin-top: 110px;
+    
     margin-left: 50px;
        
 }
@@ -644,9 +630,35 @@ body {
    margin-top: 25px;
    margin-bottom: 35px;
 }
+.imgnumero{
+    display: flex;
+    align-items: center;
+}
 .formascontribuir{
 display: flex;
 justify-content: space-evenly;
+text-align: center;
 margin-top: px;
 }
 
+.bloco-pet{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+margin-top: 100px;}
+
+
+.escolhas-das-especies{
+    text-align: center;
+}
+
+
+.pagina-adote{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.conteudo p{
+    margin-bottom: 20px;
+}
