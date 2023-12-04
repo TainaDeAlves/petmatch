@@ -525,8 +525,7 @@ body {
 .logo a {
     display: block;
     font-size: 16px;
-    margin-top: 10px;
-    color:#fff
+    margin-top: 10px
 }
 
 .logo img {
@@ -543,7 +542,6 @@ body {
 .categorias a {
     margin-top: 10px;
     display: block;
-    color: #fff;
     
 }
 
@@ -557,8 +555,6 @@ body {
  .pet-match a {
     display: block;
     margin-bottom: 5px;
-    color: #fff;
-    
 
  }
     
@@ -572,7 +568,6 @@ body {
 .Contatos a {
     display: block;
     margin-bottom: 10px;
-    color: #fff;
 
     
 
@@ -596,6 +591,24 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* css da pagina-contribuir */
 .bannerprincipal {
     display: flex;
@@ -612,41 +625,55 @@ body {
 .textoamarelo {
     color: var(--segundaria) !important;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px; 
+    font-size: 25px;
 }
 
-.botoes{
+.botoes {
     display: flex;
-    padding: 35px;
-    margin-top: 25px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 35px 150px;
+
 }
+
+.botao3 {
+   background-color: var(--segundaria);
+   border-radius: 8px;
+   padding: 0.2em ;
+   margin: 5px;
  
+  
+    
+}
 .botao3 a{
-    color: #fff;
-    background-color: var(--segundaria);
-    padding: 10px 10px;
-    align-items: center;
-    border-radius: 8px;
-    font-size: 18px; 
- }
- .titulo2{
+font-size: 16px;
+color: #fff;
+}
+.titulo2{
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 30px;
- }
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-family:'Quicksand', sans-serif; 
+font-weight: 500;
+}
+
 .doar{
-   display: flex;
-   justify-content: space-around;
-   margin-top: 25px;
-   margin-bottom: 35px;
+    display: flex;
+   text-align:center;
+}
+.imgnumero{
+    font-size: 20px;
 }
 .formascontribuir{
-display: flex;
-justify-content: space-evenly;
-margin-top: px;
+    display: flex;
+    justify-content: space-evenly; 
+    padding-top: 55px;
+    
+    
 }
+    .formascontribuir p{
+        margin-left: 2px;
+    }
+
+
 
