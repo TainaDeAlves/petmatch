@@ -396,7 +396,7 @@ body {
 
 .imagem {
     margin-left: 100px;
-    margin-top: 170px;
+    margin-top: 75px;
 
 }
 
@@ -431,7 +431,7 @@ body {
     border-radius: 10px;
     border: 3px solid #cd9cfa;
     background: #fff;
-    margin-left: -477.4px;
+    margin-left: -360px;
 
 }
 
@@ -444,7 +444,7 @@ body {
     margin-left: 55.4%;
     align-items: center;
     padding-left: 1px;
-    margin-top: 169.1%;
+    margin-top: 166.6%;
     background-color: #cd9cfa;
     width: 146px;
     height: 43px;
@@ -663,4 +663,72 @@ margin-top: 100px;}
 
 .conteudo p{
     margin-bottom: 20px;
+}
+
+
+.cadastre-se{
+    text-align: center;
+    background-color: #2f2f2f;
+    box-shadow: 5px 5px 5px 5px #A15BE2;
+    height: 450px;
+}
+
+
+.cadastro{
+    text-align: center;
+    
+}
+
+
+.name{
+    display: block;
+    margin-left: 830px;
+    margin-bottom: 30px;
+}
+
+
+.email{
+    display: block;
+    margin-left: 830px;
+    margin-bottom: 30px;
+}
+
+.city{
+    display: block;
+    margin-left: 830px;
+    margin-bottom: 30px;
+}
+
+
+.uf{
+    display: block;
+    margin-left: 830px;
+    margin-bottom: 30px;
+}
+
+
+.sen{
+    display: block;
+    margin-left: 830px;
+    margin-bottom: 30px;
+}
+
+
+
+.Confirme{
+    display: block;
+    margin-left: 830px;
+    margin-bottom: 30px;
+}
+
+
+
+.gin{
+    text-align: center;
+    background-color: #A15BE2;
+    margin-left: -70px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 15px;
 }
