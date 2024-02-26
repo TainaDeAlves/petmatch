@@ -32,7 +32,8 @@ body {
     height: 85px;
 
 }
-#logo{
+
+#logo {
     margin-top: -13px;
 }
 
@@ -319,18 +320,18 @@ body {
 .container4 {
     text-align: center;
     display: flex;
-    margin-left: -100px; 
-    /* background-color: #cd9cfa73; */
+    margin-left: -100px;
+    background-color: #cd9cfa73;
     padding-left: 235px;
     padding-top: 150px;
     width: 80%;
-    margin-top: 10px; 
+    margin-top: 10px;
     box-shadow: #cd9cfa73;
 
 }
 
 .bloco-depoimentos {
-    justify-content: center; 
+    justify-content: center;
     padding: 60px;
 
 }
@@ -488,41 +489,40 @@ body {
     margin-left: -480px;
     padding-left: 580px;
     padding: 300px;
-    
+
 }
 
-/*continuação do index html*/
+
 
 .rodape {
     display: block;
     display: flex;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    
     justify-content: center;
     margin-left: 0px;
     align-items: center;
-    background-color:#A15BE2;
+    background-color: #A15BE2;
     color: #fff;
     width: 100%;
     height: 350px;
-    
+
 }
 
- 
+
 
 .logo a {
     display: block;
     font-size: 16px;
     margin-top: 10px;
-    color:#fff
+    color: #fff
 }
 
 .logo img {
     margin-top: 10px;
 }
 
-.categorias{
-   
+.categorias {
+
     margin-left: 25px;
     display: block;
 }
@@ -532,29 +532,29 @@ body {
     margin-top: 10px;
     display: block;
     color: #fff;
-    
+
 }
 
-.pet-match{
-     margin-left: 50px;
-     
-    
+.pet-match {
+    margin-left: 50px;
+
+
 }
 
 
- .pet-match a {
+.pet-match a {
     display: block;
     margin-bottom: 5px;
     color: #fff;
-    
-
- }
-    
 
 
-.Contatos{
-      margin-left: 30px;
-     
+}
+
+
+
+.Contatos {
+    margin-left: 30px;
+
 }
 
 .Contatos a {
@@ -562,7 +562,7 @@ body {
     margin-bottom: 10px;
     color: #fff;
 
-    
+
 
 }
 
@@ -570,9 +570,9 @@ body {
 .baixe-apps {
     display: block;
     margin-bottom: 1px;
-    
+
     margin-left: 50px;
-       
+
 }
 
 
@@ -600,73 +600,81 @@ body {
 .textoamarelo {
     color: var(--segundaria) !important;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px; 
+    font-size: 25px;
 }
 
-.botoes{
+.botoes {
     display: flex;
     padding: 35px;
     margin-top: 25px;
     justify-content: space-evenly;
 }
- 
-.botao3 a{
+
+.botao3 a {
     color: #fff;
     background-color: var(--segundaria);
     padding: 10px 10px;
     align-items: center;
     border-radius: 8px;
-    font-size: 18px; 
- }
- .titulo2{
+    font-size: 18px;
+}
+
+.titulo2 {
     display: flex;
     justify-content: center;
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
     padding-top: 20px;
     padding-bottom: 30px;
- }
-.doar{
-   display: flex;
-   justify-content: space-around;
-   margin-top: 25px;
-   margin-bottom: 35px;
 }
-.imgnumero{
+
+.doar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.imgnumero {
     display: flex;
     align-items: center;
 }
-.formascontribuir{
-display: flex;
-justify-content: space-evenly;
-text-align: center;
-margin-top: px;
+
+.formascontribuir {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 30px;
+
 }
 
-.bloco-pet{
+/* termino da da pagina contribuir */
+
+.bloco-pet {
     display: flex;
     justify-content: space-around;
     text-align: center;
-margin-top: 100px;}
+    margin-top: 100px;
+}
 
 
-.escolhas-das-especies{
+.escolhas-das-especies {
     text-align: center;
 }
 
 
-.pagina-adote{
+.pagina-adote {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.conteudo p{
+.conteudo p {
     margin-bottom: 20px;
 }
 
 
-.cadastre-se{
+.cadastre-se {
     text-align: center;
     background-color: #2f2f2f;
     box-shadow: 5px 5px 5px 5px #A15BE2;
@@ -674,48 +682,40 @@ margin-top: 100px;}
 }
 
 
-.cadastro{
+.cadastro {
     text-align: center;
-    
+
 }
 
 
-.name{
+.name {
     display: block;
     margin-left: 830px;
     margin-bottom: 30px;
 }
 
 
-.email{
+.email {
     display: block;
     margin-left: 830px;
     margin-bottom: 30px;
 }
 
-.city{
-    display: block;
-    margin-left: 830px;
-    margin-bottom: 30px;
-}
-
-
-.uf{
+.city {
     display: block;
     margin-left: 830px;
     margin-bottom: 30px;
 }
 
 
-.sen{
+.uf {
     display: block;
     margin-left: 830px;
     margin-bottom: 30px;
 }
 
 
-
-.Confirme{
+.sen {
     display: block;
     margin-left: 830px;
     margin-bottom: 30px;
@@ -723,7 +723,15 @@ margin-top: 100px;}
 
 
 
-.gin{
+.Confirme {
+    display: block;
+    margin-left: 830px;
+    margin-bottom: 30px;
+}
+
+
+
+.gin {
     text-align: center;
     background-color: #A15BE2;
     margin-left: -70px;
@@ -732,3 +740,105 @@ margin-top: 100px;}
     padding: 10px;
     border-radius: 15px;
 }
+
+/* ----inicio css da pagina contato----- */
+.textsugerirfaq{
+    margin-left: 55px;
+}
+.textfaq h2 {
+    color: var(--primaria);
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.textfaq p {
+    font-size: 20px;
+}
+
+.textfaq p span {
+    color: var(--segundaria);
+}
+
+.botaofaq{
+    
+    background-color: var(--segundaria);
+    padding: 3px 20px;
+    border-radius: 18px;
+    position: absolute;
+    margin-top: 25px;
+    color: #ffff;
+    margin-left: 15px;
+}
+.botaofaq a{
+    
+    color: #fff;
+    font-size: 18px;
+}
+.imgcontato {
+    position: relative;
+    margin-top: -180px;
+    background-image: url("../img/imgcontato.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+}
+.textdobackground{
+    color: var(--segundaria);
+    font-size: 30px;
+    font-weight: 600;
+  position: absolute;
+  padding-left: 835px;
+  margin-top: -500px;
+}
+.contatoAtraves{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#meiosDeContato{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primaria);
+    padding: 35px 20px;
+    border-radius: 45px;
+  font-size: 17px;
+    color: #ffff;
+}
+.iconecontato{
+   
+   padding: 0px 25px;
+}
+
+.formcontato{
+background-image: linear-gradient(to bottom,#ffffff, #cc9cfadb);
+
+}
+
+.textformcontato h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--segundaria);
+}
+
+.formMensagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+   
+}
+
+#nomeusuario input{
+    
+    border-radius: 15px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    
+}
+/* ---- final do css da pagina contato----- */
