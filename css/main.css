@@ -768,7 +768,7 @@ body {
     border-radius: 18px;
     position: absolute;
     margin-top: 25px;
-    color: #ffff;
+    
     margin-left: 15px;
 }
 
@@ -778,8 +778,8 @@ body {
     font-size: 18px;
 }
 
-.imgcontato {
-    position: relative;
+.imgcontato{
+    
     margin-top: -180px;
     background-image: url("../img/imgcontato.png");
     background-repeat: no-repeat;
