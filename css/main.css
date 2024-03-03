@@ -320,19 +320,37 @@ body {
 .container4 {
     text-align: center;
     display: flex;
-    margin-left: -100px;
+    margin-left: -80%;
     background-color: #cd9cfa73;
-    padding-left: 235px;
+    padding-left: 84%;
     padding-top: 150px;
-    width: 80%;
+    width: -20%;
     margin-top: 10px;
     box-shadow: #cd9cfa73;
 
 }
 
+
+.container4{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6%;
+    padding-left: 4%;
+    padding-right: 0%;
+}
+
+
+
+
+
+
 .bloco-depoimentos {
+    text-align: center;
+    align-items: center;
     justify-content: center;
     padding: 60px;
+    margin-left: 0px;
 
 }
 
@@ -340,21 +358,31 @@ body {
     padding-left: 300px;
     padding-top: -900px;
     margin-top: -150px;
+    margin-left: -15%;
 }
 
 
 
 .depoimento1 {
-    margin-left: 50px;
+    margin-left: -10%;
     padding-top: 160px;
     padding: 30px;
     padding-left: 240px;
 
 }
 
+    .depoimentos2{
+        margin-left: 45%;
+    }
+
+
+
+
+
+
 .testimony1 {
     padding: 100px;
-    margin-left: -15px;
+    margin-left: -115%;
     margin-top: 5px;
     width: 400px;
     height: 550px;
@@ -374,7 +402,7 @@ body {
     padding-top: 900px;
     margin-top: -559px;
     padding: 100px;
-    margin-left: 860px;
+    margin-left: 31%;
     padding-top: -70px;
     width: 400px;
     height: 550px;
