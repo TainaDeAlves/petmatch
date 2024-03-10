@@ -836,11 +836,12 @@ body {
 .gin {
     text-align: center;
     background-color: #A15BE2;
-    margin-left: 47.4%;
-    padding: 10px;
-    border-radius: 20px;
-    width: 65px;
-
+    display: block;
+    margin-left: 45.9%;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
 
 }
 
