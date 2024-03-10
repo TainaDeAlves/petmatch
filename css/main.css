@@ -854,6 +854,14 @@ margin: 0;
 margin-top: 20px;
 }
 
+/*login*/
+
+.cadastre-se1{
+    background-color: #2f2f2f;
+    height: 300px;
+    padding-top: 12px;
+}
+
 
 .texto{
     margin-left: 450px;
