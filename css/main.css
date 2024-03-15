@@ -14,6 +14,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 
+
 }
 
 .container {
@@ -331,7 +332,7 @@ body {
 }
 
 
-.container4{
+.container4 {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -371,9 +372,9 @@ body {
 
 }
 
-    .depoimentos2{
-        margin-left: 45%;
-    }
+.depoimentos2 {
+    margin-left: 45%;
+}
 
 
 
@@ -489,7 +490,7 @@ body {
     top: 50px;
     left: 50px;
 
-    
+
 }
 
 .botao {
@@ -524,36 +525,36 @@ body {
 
 
 .rodape {
-    margin: 0px 0px;
+    justify-content: center;
     text-align: center;
     display: flex;
     background-color: #A15BE2;
     color: #fff;
-    height: 350px;
+    height: 360px;
     padding-top: 50px;
-    padding-left: 4%;
+    padding-right: 350px;
 
 
 
 }
 
 
-.imagem{
+.imagem {
     margin-left: -10%;
-    margin-top: 5px;
+    margin-top: 24.6px;
 }
 
-.imagem{
+.imagem {
     margin-left: -650px;
 }
 
-.imagem{
+.imagem {
     padding-left: 50%;
 }
 
 
 
-.containerRodape{
+.containerRodape {
     margin-left: 0px;
 }
 
@@ -573,12 +574,12 @@ body {
 
 }
 
-.texto{
+.texto {
     margin-left: -150px;
 }
 
 
-.img{
+.img {
     margin-left: 50px;
 
 }
@@ -749,12 +750,13 @@ body {
 
 /*inicio da pagina cadastra-se*/
 
-.texto1{
+.texto1 {
     color: #A15BE2;
     margin-left: 43%;
     margin-bottom: 20px;
 
 }
+
 .cadastre-se {
     background-color: #2f2f2f;
     height: 530px;
@@ -805,7 +807,7 @@ body {
     padding: 5px;
     border-radius: 10px;
     width: 300px;
-    
+
 }
 
 
@@ -846,25 +848,25 @@ body {
 }
 
 
-footer{
+footer {
     margin: 0;
 }
 
-.rodape{
-margin: 0;
-margin-top: 20px;
+.rodape {
+    margin: 0;
+    margin-top: 20px;
 }
 
 /*login*/
 
-.cadastre-se1{
+.cadastre-se1 {
     background-color: #2f2f2f;
     height: 300px;
     padding-top: 12px;
 }
 
 
-.texto{
+.texto {
     margin-left: 450px;
 }
 
@@ -897,7 +899,7 @@ margin-top: 20px;
     border-radius: 18px;
     position: absolute;
     margin-top: 25px;
-    
+
     margin-left: 15px;
 }
 
@@ -907,8 +909,8 @@ margin-top: 20px;
     font-size: 18px;
 }
 
-.imgcontato{
-    
+.imgcontato {
+
     margin-top: -180px;
     background-image: url("../img/imgcontato.png");
     background-repeat: no-repeat;
@@ -982,14 +984,15 @@ margin-top: 20px;
     padding-top: 65px;
 
 }
-.botaoenviarform{
-     display: flex;
-   justify-content: center;
-   
+
+.botaoenviarform {
+    display: flex;
+    justify-content: center;
+
 }
 
-.botaoenviarform input{
-   font-size: 16px;
+.botaoenviarform input {
+    font-size: 16px;
     color: #fff;
     background-color: #FCC419;
     border: var(--segundaria) 3px solid;
@@ -997,3 +1000,24 @@ margin-top: 20px;
 }
 
 /* ---- final do css da pagina contato----- */
+
+
+
+/*politica de privacidade*/
+
+
+.titulo2 {
+    color: #2f2f2f;
+}
+
+.politica {
+    color: #8107f3;
+    font-size: 20px;
+}
+
+
+.email {
+    font-size: 20px;
+    color: #8107f3;
+    text-decoration: overline solid black;
+}
