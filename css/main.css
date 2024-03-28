@@ -721,33 +721,6 @@ body {
 /* termino da da pagina contribuir */
 
 
-
-
-
-.bloco-pet {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 100px;
-}
-
-
-.escolhas-das-especies {
-    text-align: center;
-}
-
-
-.pagina-adote {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.conteudo p {
-    margin-bottom: 20px;
-}
-
-
 /*inicio da pagina cadastra-se*/
 
 .texto1 {
