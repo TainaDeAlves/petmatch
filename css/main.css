@@ -994,3 +994,6 @@ footer {
     color: #8107f3;
     text-decoration: overline solid black;
 }
+.informacoepet{
+    display: flex;
+}
