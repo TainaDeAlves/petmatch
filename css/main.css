@@ -994,8 +994,128 @@ footer {
     color: #8107f3;
     text-decoration: overline solid black;
 }
+
 /* finnal politica de privacidade*/
 
 /*  inicio css pagina de adote */
+#containeradotar{
+    max-width: 1000px;
+}
+.container h2 {
+  margin: 45px 0px;
+}
+#buscarpet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #cc9cfa40;
+    box-shadow: inset 0px 5px 10px 1px #cc9cfa84;
+    
+}
 
+.formpet {
+    width: 100%;
+}
+
+.formpet button {
+    margin-top: 20px;
+    background-color: #CD9CFA;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 35px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.informacoepet {
+    display: flex;
+    justify-content: space-around;
+}
+
+.localidadepet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select {
+    width: 215px;
+    height: 35px;
+    font-size: 16px;
+    border: solid 1px var(--primaria);
+    border-radius: 10px;
+    outline: none;
+}
+
+.sexos select {
+    width: 130%;
+    height: 35px;
+}
+
+/* .estado {
+    padding-right: 25px;
+} */
+
+.estado select {
+    width: 235%;
+    height: 35px;
+}
+
+/* .cidade {
+    padding-right: 125px;
+} */
+
+.cidade select {
+    width: 235%;
+    height: 35px;
+}
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.dadospet{
+    flex-grow: 1;
+    margin-top: 45px;
+    border: solid 2px var(--primaria);
+    border-radius: 20px;
+    max-width: 295px;
+    height: 400px;
+}
+
+.fotopet img{
+    object-fit: cover;
+    width: 292px;
+    height: 180px;
+    border-radius: 18px;
+    border: solid 3px var(--primaria);
+}
+.descricaopet{
+padding-top: 15px;
+padding-left: 5px;
+max-width: 185px;
+
+}
+.descricaopet p{
+    padding-bottom: 15px;
+}
+.botaoconhecer{
+  display: flex;
+  justify-content: right;
+   
+  margin-right: 15px;
+  margin-bottom: 30px;
+ 
+}
+.botaoconhecer a {
+    background-color: var(--primaria);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 6px 14px;
+}
 /*  final css pagina de adote */
