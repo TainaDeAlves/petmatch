@@ -820,6 +820,22 @@ body {
 
 }
 
+.ONGS {
+    text-align: center;
+    background-color: #2f2f2f;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-left: 950px;
+
+
+
+}
+
+
+
 
 footer {
     margin: 0;
@@ -1225,7 +1241,7 @@ select {
     width: 350px;
     font-size: 15px;
 
-    
+
 }
 
 
@@ -1243,15 +1259,13 @@ select {
 
 
 #botaoEntrar {
-    margin-left: 12px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    background-color: #2f2f2f;
+    color: white;
     padding: 5px;
     border-radius: 10px;
-    width: 350px;
-    font-size: 16px;
-    background-color: #696868;
-    color: black;
+    font-size: 18px;
+    margin-top: -150px;
+
 
 }
 
