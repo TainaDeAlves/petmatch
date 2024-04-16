@@ -472,7 +472,7 @@ body {
     height: 360px;
     padding-top: 50px;
     padding-right: 350px;
-    
+
 }
 
 
@@ -832,9 +832,9 @@ body {
     background-image: url("../img/imgcontato.png");
     background-repeat: no-repeat;
     background-position: right;
-   height: 600px;
-   
-   
+    height: 600px;
+
+
 }
 
 .textdobackground {
@@ -957,7 +957,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     height: 90%;
     border-radius: 20px;
     background-color: #cc9cfa40;
@@ -1163,7 +1163,7 @@ body {
     margin-top: -150px;
 }
 
-/* final do cadastro das ongs*/ 
+/* final do cadastro das ongs*/
 
 
 
@@ -1172,9 +1172,9 @@ body {
 .titulocadastropet h2{
     color: var(--segundaria);
     display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 
 }
 .titulocadastropet h2 i{
@@ -1190,8 +1190,8 @@ body {
     font-size: 1.2rem;
 }
 .l{
-display: inline-block;
-justify-content: center;
+    display: inline-block;
+    justify-content: center;
 }
 
 .titulocampoform{
@@ -1211,83 +1211,78 @@ justify-content: center;
     font-size: 1.2rem;
 }
 
- label span{
+label span{
     margin-left: 5px;
-    color: var(--texto)!important;
+    color: var(--texto) !important;
 }
-#cadastropet  input{
+#cadastropet input{
     border-radius: 10px;
     border: solid 1px #2f2f2f;
     outline: none;
-     height: 30px;
-    width: 25%; 
+    height: 30px;
+    width: 25%;
     margin-right: 20px;
     margin-bottom: 35px;
     padding-left: 15px;
 
 }
-/* #imgpet{
-    margin-bottom: 15px ;
-    
-   height: 200px;
-width: 200px;
+/* #imgpet {
+    margin-bottom: 15px;
+
+    height: 200px;
+    width: 200px;
 
 
-}
-#imgpet img{
-    
-   position: relative;
+} */
+/* #imgpet img {
 
-
+    position: relative;
 
 }
 .inseririmg{
-position: absolute;
-margin:  0 ;
-bottom:  50px;
-height: 80px;
-width: 180px;
-line-height: 33px;
-overflow: hidden;
-border-radius: 50%;
-text-align: left;
+    position: absolute;
+    margin: 0 ;
+    margin-top: -90px;
+    height: 80px;
+    width: 280px;
+    line-height: 33px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: left;
 
 }
 
 .inseririmg input[type="file"] {
- 
-position: relative;
-transform: scale(2);
-opacity: 10;
+
+    position: relative;
+    transform: scale(2);
+    opacity: 10;
 } */
 
-#informacoespetform select{
-   
+#informacoespetform select {
+
     width: 25%;
     height: 32px;
     border-radius: 10px;
     outline: none;
     margin-bottom: 40px;
     margin-left: -15px;
-    
+
 }
-.botaoformcadastro{
-   
-  display: flex;
-  justify-content: right;
+
+.botaoformcadastro {
+
+    display: flex;
+    justify-content: right;
 }
-.botaoformcadastro button{
+
+.botaoformcadastro button {
     background-color: var(--segundaria);
     border: none;
     padding: 10px 30px;
     border-radius: 12px;
     color: #fff;
     font-size: 20px;
-    margin:25px  0px;
-    
+    margin: 25px 0px;
+
 }
-
-    
-
-
-
