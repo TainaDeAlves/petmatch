@@ -117,10 +117,28 @@
                     <p class="titulocampoform">Dados pet:</p>
                     <div id="imgpet" class="espacamento">
 
-                        <img src="./img/pet_7104394.png" height="130">
+
                         <div class="inseririmg">
-                            <label for="fotoperfilpet"></label>
-                            <input type="file" name="fotoperfilpet" id="fotoperfilpet">
+                            
+                            <img src="./img/pet_7104394.png"alt="Imagem" id="imagem"
+                                onclick="document.getElementById('inputImagem').click()">
+                            <input type="file" id="inputImagem" accept="image/*" style="display: none;"
+                                data-imagemid="imagem">
+                        </div>
+                        <div class="inseririmg">
+                            
+                            <img src="./img/pet_7104394.png"alt="Imagem" id="imagem1"
+                                onclick="document.getElementById('inputImagem1').click()">
+                            <input type="file" id="inputImagem1" accept="image/*" style="display: none;"
+                                data-imagemid="imagem1">
+                        </div>
+
+                        <div class="inseririmg">
+                            
+                            <img src="./img/pet_7104394.png"alt="Imagem" id="imagem2"
+                                onclick="document.getElementById('inputImagem2').click()">
+                            <input type="file" id="inputImagem2" accept="image/*" style="display: none;"
+                                data-imagemid="imagem2">
                         </div>
 
                     </div>
@@ -231,7 +249,7 @@
 
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="./js/cadastropet.js"></script>
 </body>
 
 </html>

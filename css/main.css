@@ -1226,38 +1226,21 @@ label span{
     padding-left: 15px;
 
 }
-/* #imgpet {
-    margin-bottom: 15px;
-
-    height: 200px;
-    width: 200px;
-
-
-} */
-/* #imgpet img {
-
-    position: relative;
+#imgpet{
+display: flex;
 
 }
 .inseririmg{
-    position: absolute;
-    margin: 0 ;
-    margin-top: -90px;
-    height: 80px;
-    width: 280px;
-    line-height: 33px;
-    overflow: hidden;
-    border-radius: 50%;
-    text-align: left;
-
+    margin: 40px 10px;
+   
 }
-
-.inseririmg input[type="file"] {
-
-    position: relative;
-    transform: scale(2);
-    opacity: 10;
-} */
+.inseririmg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 4px var(--primaria);
+}
 
 #informacoespetform select {
 
@@ -1265,7 +1248,7 @@ label span{
     height: 32px;
     border-radius: 10px;
     outline: none;
-    margin-bottom: 40px;
+    margin-bottom: 40px ;
     margin-left: -15px;
 
 }
