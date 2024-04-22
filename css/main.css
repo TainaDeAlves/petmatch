@@ -235,14 +235,14 @@ body {
     font-size: 16px;
 }
 
-.bloco-pet{
+.bloco-pet {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 95px;
 }
 
-.caramelo{
+.caramelo {
     text-align: center;
 }
 
@@ -977,7 +977,8 @@ body {
     color: #fff;
     font-size: 20px;
 }
-.teste{
+
+.teste {
     margin-bottom: 35px;
 }
 
@@ -1169,7 +1170,7 @@ body {
 
 /* começo do css da pagina cadastro pet */
 
-.titulocadastropet h2{
+.titulocadastropet h2 {
     color: var(--segundaria);
     display: flex;
     justify-content: center;
@@ -1177,45 +1178,50 @@ body {
     margin: 50px;
 
 }
-.titulocadastropet h2 i{
+
+.titulocadastropet h2 i {
     padding: 0px 10px;
 }
-#fundolinear{
+
+#fundolinear {
     background-image: linear-gradient(to bottom, #f4eafd00, #cc9cfa49);
 }
 
-.aviso{
+.aviso {
     margin-left: 55px;
     margin-bottom: 65px;
     font-size: 1.2rem;
 }
-.l{
+
+.l {
     display: inline-block;
     justify-content: center;
 }
 
-.titulocampoform{
+.titulocampoform {
     margin-bottom: 35px;
     font-size: 1.5rem;
 }
 
-.dados{
+.dados {
     margin-left: 55px;
 }
-.espacamento{
+
+.espacamento {
     margin-left: 15px;
 }
 
-#cadastropet label{
+#cadastropet label {
     padding-right: 20px;
     font-size: 1.2rem;
 }
 
-label span{
+label span {
     margin-left: 5px;
     color: var(--texto) !important;
 }
-#cadastropet input{
+
+#cadastropet input {
     border-radius: 10px;
     border: solid 1px #2f2f2f;
     outline: none;
@@ -1226,15 +1232,18 @@ label span{
     padding-left: 15px;
 
 }
-#imgpet{
-display: flex;
+
+#imgpet {
+    display: flex;
 
 }
-.inseririmg{
+
+.inseririmg {
     margin: 40px 10px;
-   
+
 }
-.inseririmg img{
+
+.inseririmg img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -1248,7 +1257,7 @@ display: flex;
     height: 32px;
     border-radius: 10px;
     outline: none;
-    margin-bottom: 40px ;
+    margin-bottom: 40px;
     margin-left: -15px;
 
 }
@@ -1269,3 +1278,127 @@ display: flex;
     margin: 25px 0px;
 
 }
+
+/* final do css da pagina cadastrar pet */
+
+/* inicio do css da pagina perfilpet */
+
+
+.infromacoesiniciais {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 65px;
+    font-size: 20px;
+
+}
+
+.nomepetperfil {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+#carrocelimg {
+ position: relative;
+
+ transform-style: preserve-3d;
+     width: 250px;
+    height: 250px;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+   100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+
+#carrocelimg span {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   transform-origin: center;
+    transform-style: preserve-3d;
+ transform: rotateY(calc(var(--i) * 85deg) )translateZ(200px);
+   
+}
+#carrocelimg span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#carrocelimg img {
+width: 50px;
+    height: 50px;
+
+}
+
+.destaquepet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0px;
+    justify-content: space-evenly;
+   
+}
+.destaquepet p i{
+padding-right: 15px;
+}
+
+
+.containerperfilpet {
+max-width: 750px;
+margin: 0 auto;
+}
+.infromacoessecundarias p{
+padding-bottom: 15px;
+}
+
+.botaoperfilpet{
+    background-color: var(--segundaria);
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 15px;
+    margin:  35px 0px;
+    
+       
+}
+.botaoperfilpet a{
+    color: #fff;
+ display: flex; 
+ justify-content: center;
+   
+}
+
+.historia{
+    padding-left: 5px;
+    margin-top: 10px;
+   
+}
+#carddoperfil{
+ 
+margin-left: 80px;
+margin-bottom: 30px;
+}
+
+/* final do css da pagina perfilpet */
