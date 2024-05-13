@@ -664,7 +664,8 @@ body {
 .cadastre-se {
     background-color: #2f2f2f;
     height: 530px;
-    padding-top: 32px;
+    padding-top: 30px;
+    height: 650px;
 }
 
 
@@ -748,22 +749,24 @@ body {
     padding: 5px;
     border-radius: 10px;
     width: 300px;
+    color: white;
 
 }
 
 .ONGS {
+    
     text-align: center;
-    background-color: #2f2f2f;
+    background-color: #A15BE2;
     color: white;
+    display: block;
+    margin-left: 45.9%;
+    margin-bottom: 30px;
     padding: 5px;
     border-radius: 10px;
-    font-size: 18px;
-    margin-top: -50px;
-    margin-left: 950px;
-
-
+    width: 300px;
 
 }
+
 
 
 
