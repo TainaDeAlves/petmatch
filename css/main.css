@@ -754,7 +754,7 @@ body {
 }
 
 .ONGS {
-    
+
     text-align: center;
     background-color: #A15BE2;
     color: white;
@@ -1304,12 +1304,13 @@ label span {
 
 
 #inseririmg {
-   margin: 40px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
 .img2 {
     width: 300px;
     height: 300px;
@@ -1318,6 +1319,7 @@ label span {
     object-fit: cover;
     border: solid 4px var(--primaria);
 }
+
 .img1,
 .img3 {
     width: 250px;
@@ -1345,46 +1347,102 @@ label span {
     align-items: center;
     margin: 85px 0px;
     justify-content: space-evenly;
-   
+
 }
-.destaquepet p i{
-padding-right: 15px;
+
+.destaquepet p i {
+    padding-right: 15px;
 }
 
 
 .containerperfilpet {
-max-width: 750px;
-margin: 0 auto;
+    max-width: 750px;
+    margin: 0 auto;
 }
-.infromacoessecundarias p{
-padding-bottom: 15px;
+.infromacoessecundarias{
+    margin-bottom: 35px;
+}
+.infromacoessecundarias p {
+    padding-bottom: 15px;
+    
 }
 
-.botaoperfilpet{
+.botaoperfilpet {
     background-color: var(--segundaria);
     width: 100%;
     padding: 10px 0px;
     border-radius: 15px;
-    margin:  35px 0px;
-    
-       
-}
-.botaoperfilpet a{
-    color: #fff;
- display: flex; 
- justify-content: center;
-   
+    margin: 35px 0px;
+
+
 }
 
-.historia{
+.botaoperfilpet a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.historia {
     padding-left: 5px;
     margin-top: 10px;
-   
+
 }
-#carddoperfil{
- 
-margin-left: 80px;
-margin-bottom: 30px;
+
+#carddoperfil {
+
+    margin-left: 80px;
+    margin-bottom: 30px;
 }
 
 /* final do css da pagina perfilpet */
+
+/* começo do css da pagina faq */
+.perguntaseresposta{
+    margin: 35px 0px ;
+}
+.perguntafaq{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.perguntafrequentes i{
+    margin-right: 25px;
+}
+.textchamado {
+width: 100%;
+     display: flex;
+    justify-content: center;
+align-items: center;
+}
+.textchamado p{
+    width: 50%;
+}
+#orientação{
+    margin: 135px 0px;
+}
+#orientação h2{
+    text-align: center;
+    margin: 105px 0px;
+}
+#contatonapaginafaq{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nofaqcontato a i{
+    font-size: clamp(55px, 4vw, 100px);
+    color: black;
+}
+.nofaqcontato a i:hover{
+    color: #A15BE2;
+    transform: scale(1.5);
+}
+.nofaqcontato p{
+    text-align: center;
+    margin: 45px 0px;
+    font-size: clamp(16px, 1vw, 20px);
+}
+
+/* final do css da pagina faq */
