@@ -648,6 +648,16 @@ body {
     margin-bottom: 30px;
 
 }
+.textindicativo{
+    text-align: center;
+    margin: 100px 0px;
+    
+
+}
+.textindicativo h2{
+    font-weight: 500;
+    font-size: clamp(25px, 3vw, 35px);
+}
 
 /* termino da da pagina contribuir */
 
